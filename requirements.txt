@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn==1.7
+joblib
+sqlalchemy
+matplotlib
+seaborn
+jupyter
+ipykernel
+plotly.express
+kaggle
+ipywidgets
+wordcloud
