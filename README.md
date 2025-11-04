@@ -10,8 +10,7 @@ Estructura principal del repo:
 - src/: scripts reutilizables (carga, limpieza, features, modelado, bd)
 - notebooks/: Jupyter notebooks de EDA y modelado
 - docs/: documentación del dataset y procesos
-- db/: scripts SQL
-- .github/: plantillas PR, workflows
+- db/: scripts SQL  
 
 Instrucciones rápidas:
 1. Descargar dataset de Properati (ver docs/dataset_download.md) y colocarlo en data/raw/properati.csv  
