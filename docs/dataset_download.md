@@ -1,4 +1,11 @@
-# Instrucciones para descargar Properati (Kaggle)
+# Instrucciones para descargar Properati (Web)
+1. Abrir https://www.kaggle.com/datasets/alejandroczernikier/properati-argentina-dataset
+2. Descargar el archivo zip del dataset
+3. Descomprimir y cambiar el nombre del archivo entrenamiento.csv a properati.csv
+4. Guardar el archivo renombrado en la carpeta data/raw  
+
+
+# Instrucciones para descargar Properati (Consola)
 1. Crear cuenta en Kaggle y generar API token (kaggle.json): 
 - En kaggle.com ir a la foto de perfil -> Settings -> Account -> API -> Create new token
 - Se descarga el archivo kaggle.json
@@ -13,3 +20,4 @@
    ```Bash
       kaggle datasets download -d alejandroczernikier/properati-argentina-dataset -p data/raw --unzip
       move data\raw\entrenamiento.csv data\raw\properati.csv
+
